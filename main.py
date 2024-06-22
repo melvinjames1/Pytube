@@ -24,9 +24,8 @@ def download_playlist(playlist_url, download_path='.'):
         print(f'Error accessing playlist: {e}')
 
 if __name__ == '__main__':
-    # Replace with your playlist URL
+
     playlist_url = 'Your-Playlist-Url'
-    # Replace with your desired download path
     download_path = './downloads'
 
     download_playlist(playlist_url, download_path)
